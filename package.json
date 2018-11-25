@@ -1,9 +1,14 @@
 {
   "name": "json-hand",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "upgraded JSON for hand-writing with back-compatibility",
   "author": "liang.jr@foxmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mysyljr/json-hand"
+  },
+  "homepage": "https://github.com/mysyljr/json-hand#readme",
   "scripts": {
     "precommit": "lint-staged",
     "lint": "standard | snazzy"
