@@ -10,7 +10,6 @@
   },
   "homepage": "https://github.com/mysyljr/json-hand#readme",
   "scripts": {
-    "precommit": "lint-staged",
     "lint": "standard | snazzy"
   },
   "dependencies": {},
