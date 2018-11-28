@@ -41,37 +41,42 @@ means
 4. (while they can both be removed if strings can be detected) 
 5. one and only one thing is necessarily introduced here: `;` `;,` `;;` `;;,` and so on 
 
-## usage
+## install
 
 the easiest way to install json-hand is from [`npm`](https://www.npmjs.com/):
 
 ```sh
 npm install json-hand
 ```
+require it in your code:
+```javascript
+const jsonh = require('json-hand')
+```
+also, you can use script tag in browser
 
 ```html
 <script src="https://unpkg.com/json-hand/dist/index.min.js"></script>
 ```
 
 <script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
-This will create a global JSON5 variable.
+this will create a global variable `jsonh`.
 
-then you can use it like this:
+## usage
+you can use it like this:
 
 ```javascript
-const jsonh = require('json-hand')
 let obj = jsonh.parse(`abc:1 d:2 c:[d:3 e:f:g;h:i]`)
 console.log(jsonh.format(obj))
 ```
 
-there is also a convinient way to translate a json-hand to json
+`jsonh.json` translates a json-hand string to json
 ```javascript
 jsonh.json(`abc:1 d:2 c:[d:3 e:f:g;h:i]`)
 //is equivalent to
 JSON.stringify(jsonh.parse(`abc:1 d:2 c:[d:3 e:f:g;h:i]`), null, 2)
 ```
 
-a cli tool `jh` who translate json-hand to json is a bonus for convenience. if you install json-hand globally, you can
+a cli tool `jh` who translates json-hand to json is a bonus for convenience. if you install json-hand globally, you can
  use it like this
 ```sh
 npm install -g json-hand
