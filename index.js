@@ -1,11 +1,13 @@
-const format = require('./lib/format');
+"use strict";
 
-const parse = require('./lib/parse');
+var format = require('./lib/format');
 
-const json = require('./lib/json');
+var parse = require('./lib/parse');
+
+var json = require('./lib/json');
 
 module.exports = {
-  format,
-  parse,
-  json
+  format: format,
+  parse: parse,
+  json: json
 };

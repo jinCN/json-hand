@@ -1,6 +1,6 @@
 {
   "name": "json-hand",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "upgraded JSON for hand-writing with back-compatibility",
   "main": "lib/index.js",
   "bin": {
@@ -11,6 +11,7 @@
     "lib/",
     "bin/",
     "dist/",
+    "example/",
     "index.js"
   ],
   "engines": {

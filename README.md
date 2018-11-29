@@ -1,5 +1,5 @@
 # json-hand
-upgraded JSON for hand-writing with back-compatibility. [`play it`](https://unpkg.com/json-hand/example/index.html)
+upgraded JSON for hand-writing with back-compatibility. [`Play it`](https://unpkg.com/json-hand/example/index.html)
 
 ## example
 ### simple
