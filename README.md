@@ -1,5 +1,5 @@
 # json-hand
-upgraded JSON for hand-writing with back-compatibility
+upgraded JSON for hand-writing with back-compatibility. [`play it`](https://unpkg.com/json-hand/example/index.html)
 
 ## example
 ### simple
@@ -58,7 +58,6 @@ also, you can use script tag in browser
 <script src="https://unpkg.com/json-hand/dist/index.min.js"></script>
 ```
 
-<script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
 this will create a global variable `jsonh`.
 
 ## usage
@@ -96,7 +95,7 @@ curl -d `jh a:1,b:2` ...
 
 ## one thing needs explaination
 
-`;` is functioning almost same as space, except for it associativity and precedence
+`;` is functioning almost same as space, except for its associativity and precedence
 
 `a:b;c:d` just means `a:b c:d`, and while you write `x:a:b;c:d`, it can be recognized as `x:{a:b;c:d}`
 

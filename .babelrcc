@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["@babel/preset-env", {"targets": {"node": "0.10"}}]
+  ],
+  "plugins": ["babel-plugin-transform-es2017-object-entries"]
+}

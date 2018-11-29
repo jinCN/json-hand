@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const jsonh = require('../lib')
+const jsonh = require('..')
 try {
   var result = jsonh.json(process.argv[2])
 } catch (e) {

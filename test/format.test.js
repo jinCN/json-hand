@@ -32,7 +32,8 @@ test('format simple', () => {
 test('format complex', () => {
   let values = [
     [1e4, null, { a: 3 }, [1, 3], 'go go'],
-    { abc: { d: { e: [1, 3, 4] } } }
+    { abc: { d: { e: [1, 3, 4] } } },
+    { '1e1': '3', 3: 'true', 4: true, ' jh': 'j h', 'jk': 'f\ng' }
   ]
   for (let x of values) {
     t(x)
